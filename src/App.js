@@ -1,18 +1,12 @@
 import React from "react";
-import Header from "./components/Header/index";
-import Main1 from "./components/Main1/index";
-import Main2 from "./Components/Main2/index";
-import Footer from "./Components/Footer/index";
-import { GlobalStyle } from "./components/global/style";
+import Header from "./Components/Header/index";
+import * as S from "./Components/GlobalStyle/GlobalStyle";
 
 export default function App() {
   return (
-    <div>
-      <GlobalStyle />
+    <S.Wrapper>
+      <S.GlobalStyle />
       <Header />
-      <Main1 />
-      <Main2 />
-      <Footer />
-    </div>
+    </S.Wrapper>
   );
 }
