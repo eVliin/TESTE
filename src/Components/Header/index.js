@@ -1,7 +1,7 @@
 import React from "react";
 import * as S from "./style";
 
-export default function index() {
+export default function Header() {
   return (
     <S.Header>
       <S.Container>
@@ -20,10 +20,6 @@ export default function index() {
               <S.Button>SUBSCRIBE</S.Button>
             </a>
           </S.Box2>
-          <S.Menu>
-            <S.Line></S.Line>
-            <S.Line></S.Line>
-          </S.Menu>
         </S.Box>
         <S.Main>
           <S.MainText>RECIPES</S.MainText>
