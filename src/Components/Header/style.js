@@ -1,8 +1,16 @@
 import styled from "styled-components";
+import background from "..../Assets/img/fundo.png";
 
-export const Header = styled.section``;
+export const Header = styled.section`
+  height: 100vh;
+  width: 100vw;
+`;
 
-export const Container = styled.div``;
+export const Container = styled.div`
+  height: 90%;
+  width: 95%;
+  background-image: url(${background});
+`;
 
 export const Box = styled.div``;
 
