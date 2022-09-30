@@ -1,26 +1,16 @@
 import React from "react";
 import * as S from "./style";
+import Heade from "./queries/Header.js";
+import Bar from "./queries/bar.js";
+import { useMediaQuery } from "react-responsive";
 
 export default function Header() {
+  const isPortrait = useMediaQuery({ query: "(orientation: portrait)" });
+
   return (
-    <S.Header>
+    <S.Header id="home">
+      {isPortrait ? <Bar /> : <Heade />}
       <S.Container>
-        <S.Box>
-          <S.Box1>
-            <S.Title>RC</S.Title>
-          </S.Box1>
-          <S.Box2>
-            <a href="#">
-              <S.Button>ABOUT</S.Button>
-            </a>
-            <a href="#">
-              <S.Button>RECIPES</S.Button>
-            </a>
-            <a href="#">
-              <S.Button>SUBSCRIBE</S.Button>
-            </a>
-          </S.Box2>
-        </S.Box>
         <S.Main>
           <S.MainText>RECIPES</S.MainText>
         </S.Main>

@@ -1,36 +1,47 @@
 import React from "react";
-import * as S from "./style"
+import bolo from "/src/Assets/img/bolo.png";
+import pizza from "/src/Assets/img/pizza.png";
+import nozes from "/src/Assets/img/pote.png";
+import * as S from "./style";
 
-export default function Main1(){
-    return(
-      <S.Main>
+export default function Main1() {
+  return (
+    <S.Main id="recipes">
+      <S.Container>
         <S.Title>
-          <h1>LATEST RECIPES</h1>
-          <h1>___</h1>
+          <h2>LATEST RECIPES</h2>
+          <S.Barra />
         </S.Title>
         <S.CardFoods>
           <S.Food>
-            <S.Images src=# alt='Cake'/>
+            <S.Images src={bolo} alt="Cake" />
             <S.ContentsFood>
-              <h1>___</h1>
-              <h1>Red Velvet Cake</h1>
+              <section>
+                <S.Barra />
+                <h3>Red Velvet Cake</h3>
+              </section>
             </S.ContentsFood>
           </S.Food>
           <S.Food>
-            <S.Images src=# alt='Cake'/>
+            <S.Images src={pizza} alt="Pizza" />
             <S.ContentsFood>
-              <h1>___</h1>
-              <h1>Margherita Pizza</h1>
+              <section>
+                <S.Barra />
+                <h3>Margherita Pizza</h3>
+              </section>
             </S.ContentsFood>
           </S.Food>
           <S.Food>
-            <S.Images src=# alt='Cake'/>
+            <S.Images src={nozes} alt="Peanut Smoothie" />
             <S.ContentsFood>
-              <h1>___</h1>
-              <h1>Peanut Smoothie</h1>
+              <section>
+                <S.Barra />
+                <h3>Peanut Smoothie</h3>
+              </section>
             </S.ContentsFood>
           </S.Food>
         </S.CardFoods>
-      </S.Main>  
-    )
-} 
+      </S.Container>
+    </S.Main>
+  );
+}
