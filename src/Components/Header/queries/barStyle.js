@@ -19,6 +19,7 @@ export const Menu = styled.button`
   font-size: 10vw;
   text-align: center;
   z-index: 100;
+  font-family: 'Hurmer  Geometric Sans 1', SemiBold;
 `;
 
 export const Box = styled.div`
@@ -57,4 +58,5 @@ export const Button = styled.button`
   padding: 1.302vw 3.125vw;
   background-color: rgba(255, 255, 255, 0.65);
   border-radius: 5vw;
+  font-family: 'Hurmer  Geometric Sans 1', SemiBold;
 `;

@@ -7,6 +7,19 @@ export const GlobalStyle = createGlobalStyle`
         box-sizing:border-box;
         list-style: none;
     }
+    ::selection {
+  color: white;
+  background-color: #373737;
+}
+::-webkit-scrollbar-track {
+  background-color: #F2F4F1;
+}
+::-webkit-scrollbar {
+  width: 1.5vh;
+}
+::-webkit-scrollbar-thumb {
+  background: #373737;
+}
 `;
 
 export const Wrapper = styled.div`

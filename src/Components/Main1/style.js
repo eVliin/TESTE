@@ -33,9 +33,11 @@ export const Title = styled.div`
   align-items: center;
   justify-content: space-between;
   color: #373737;
+  font-family: "Hurmer  Geometric Sans 1", Regular;
   @media screen and (max-width: 850px) {
     height: 20.652vw;
     font-size: 2em;
+    font-family: "Hurmer  Geometric Sans 1", Regular;
   }
 `;
 
@@ -77,7 +79,7 @@ export const ContentsFood = styled.div`
     justify-content: space-between;
   }
   @media screen and (max-width: 850px) {
-    section{
+    section {
       width: 57.005vw;
       height: 17.995vw;
     }

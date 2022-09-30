@@ -2,7 +2,7 @@ import styled from "styled-components";
 import { HashLink as Link } from "react-router-hash-link";
 
 export const Footer = styled.footer`
-  font-family: "Caros Soft";
+  font-family: 'Hurmer  Geometric Sans 1', SemiBold;
   width: 100%;
   height: 80vh;
   background: #dfe4de;
@@ -70,11 +70,13 @@ export const Box1 = styled.div`
 export const Title = styled.h1`
   font-weight: 500;
   letter-spacing: 5px;
+  font-family: 'Hurmer  Geometric Sans 1', SemiBold;
 `;
 
 export const P = styled.p`
   font-weight: 300;
   letter-spacing: 2px;
+  font-family: 'Hurmer  Geometric Sans 1', SemiBold;
 `;
 
 export const Input = styled.input`
@@ -84,9 +86,10 @@ export const Input = styled.input`
   outline: none;
   border: 4px solid whitesmoke;
   font-size: 1em;
+  font-family: 'Hurmer  Geometric Sans 1', SemiBold;
   &::placeholder {
     font-weight: 400;
-    font-family: "Caros Soft";
+    font-family: 'Hurmer  Geometric Sans 1', SemiBold;
   }
 `;
 
@@ -94,7 +97,7 @@ export const Button = styled.button`
   background: none;
   border: 4px solid #373737;
   padding: 15px 45px;
-  font-family: "Caros Soft";
+  font-family: 'Hurmer  Geometric Sans 1', SemiBold;
   font-size: 1em;
   cursor: pointer;
   transition: 1s all;
@@ -139,7 +142,7 @@ export const Li = styled(Link)`
   text-decoration: none;
   p {
     color: #373737;
-    font-family: "Caros Soft";
+    font-family: 'Hurmer  Geometric Sans 1', SemiBold;
     transition: 1s all;
     &:hover {
       font-weight: bold;
@@ -169,7 +172,7 @@ export const Container3 = styled.div`
   text-align: center;
   flex-direction: row;
   font-size: 0.9em;
-  font-family: "Roboto";
+  font-family: 'Hurmer  Geometric Sans 1', SemiBold;
   color: #ffffff90;
   word-break: break-all;
   a {

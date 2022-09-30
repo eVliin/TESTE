@@ -25,9 +25,6 @@ const Bar = () => {
           <S.Menu onClick={change}>X</S.Menu>
           <BrowserRouter>
             <S.Box2>
-              <Link to="/pathLink#home">
-                <S.Button onClick={change}>HOME</S.Button>
-              </Link>
               <Link to="/pathLink#recipes">
                 <S.Button onClick={change}>RECIPES</S.Button>
               </Link>

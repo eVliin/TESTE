@@ -38,11 +38,13 @@ export const ContentsAbout = styled.div`
     text-align: left;
     letter-spacing: 0px;
     color: #373737;
+    font-family: "Roboto", Regular;
   }
   h2 {
     font-size: 40px;
     letter-spacing: 1.72px;
     color: #373737;
+    font-family: "Hurmer  Geometric Sans 1", SemiBold;
   }
   @media screen and (max-width: 850px) {
     height: 176.087vw;
@@ -64,6 +66,7 @@ export const Title = styled.section`
   align-items: center;
   justify-content: space-between;
   color: #373737;
+  font-family: "Hurmer  Geometric Sans 1", SemiBold;
   @media screen and (max-width: 850px) {
     width: 34.541vw;
     height: 19.686vw;
