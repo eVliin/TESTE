@@ -56,6 +56,7 @@ export const Button = styled.button`
   height: 100%;
   text-align: center;
   padding: 1.302vw 3.125vw;
+  font-family: "Hurmer  Geometric Sans 1", SemiBold;
 `;
 
 export const Main = styled.div``;
@@ -64,4 +65,5 @@ export const MainText = styled.div`
   font-size: 9.896vw;
   letter-spacing: 0.82vw;
   color: #373737;
+  font-family: "Hurmer  Geometric Sans 1", SemiBold;
 `;

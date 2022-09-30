@@ -10,9 +10,6 @@ const Heade = () => {
       <S.Logo src={logo} />
       <BrowserRouter>
         <S.Box2>
-          <Link to="/pathLink#home">
-            <S.Button>HOME</S.Button>
-          </Link>
           <Link to="/pathLink#recipes">
             <S.Button>RECIPES</S.Button>
           </Link>
